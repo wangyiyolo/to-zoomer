@@ -1,11 +1,11 @@
 # to-zoomer
 
 ## 安装
-
->npm i "to-zoomer"
+```shell
+npm install to-zoomer
+```
 
 ## 用法
-
 ```js
 // script中引入
 import ToZoomer from 'to-zoomer'
