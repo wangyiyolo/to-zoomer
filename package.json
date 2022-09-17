@@ -1,13 +1,16 @@
 {
   "name": "to-zoomer",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "放大镜"
+    "放大镜",
+    "magnifying glass",
+    "zoomer",
+    "zoom"
   ],
   "author": "wangyi",
   "license": "MIT",

@@ -5,9 +5,9 @@ import {
   onMounted,
   onBeforeUnmount
 } from 'vue';
-import { debounce } from 'lodash';
+import { debounce } from 'lodash-es';
 
-defineProps({
+const props = defineProps({
   imgSrc: {
     type: String,
     required: true,
@@ -87,7 +87,7 @@ function onMouseEnter(e) {
     @mouseenter="onMouseEnter"
   >
     <div class="img">
-      <img :src="imgSrc" alt="" />
+      <img :src="props.imgSrc" alt="" />
     </div>
     <div
       v-show="maskVisible"
@@ -101,7 +101,7 @@ function onMouseEnter(e) {
     >
       <img
         :style="`transform: translate(${ -maskPosition[0] * 2 }px, ${ -maskPosition[1] * 2 }px);`"
-        :src="imgSrc"
+        :src="props.imgSrc"
         alt=""
       />
     </div>

@@ -1,5 +1,10 @@
 # to-zoomer
 
+## 
+```js
+基于 Vue3 
+```
+
 ## 安装
 ```shell
 npm install to-zoomer
